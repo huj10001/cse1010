@@ -1,0 +1,5 @@
+     1	avocado
+     2	banana
+     3	orange
+     4	pear
+     5	zucchini
