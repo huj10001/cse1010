@@ -1,6 +1,8 @@
 # cse1010
 sample solution for labs and hws
 
+office hour: Fri. 3-5pm @ITE140/311
+
 online namesheet:
 
 056L	https://docs.google.com/spreadsheets/d/15O0e2fZi-f_dEGFTDfldGNYYKlGrT2vpryunWUK2KHc/edit?usp=sharing
