@@ -1,5 +1,5 @@
 # cse1010
-sample solution for labs and hws
+sample solutions for some labs and hws, for reference only, please DO NOT share.
 
 office hour: Fri. 3-5pm @ITE140/311
 
