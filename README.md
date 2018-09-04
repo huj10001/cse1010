@@ -5,6 +5,6 @@ office hour: Fri. 4:30-6:30pm @ITE140
 
 online namesheet:
 
-056L	https://docs.google.com/spreadsheets/d/15O0e2fZi-f_dEGFTDfldGNYYKlGrT2vpryunWUK2KHc/edit?usp=sharing
+017L	https://drive.google.com/open?id=1xUarkT1nMJ5522oUiAPnB1K8IrvwdYP26xUR7jUC378
 
-002L	https://docs.google.com/spreadsheets/d/1GqKa123u3niFY8rgcafOcLBjY-AFpUNpaMpimnGNElk/edit?usp=sharing
+034L	https://drive.google.com/open?id=1Ocj5ghNKcURkJ7kRBEDtDT8CS67caHy5oVXRCtPRr3E
