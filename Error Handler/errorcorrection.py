@@ -8,17 +8,13 @@ def string2bin(string):
 
 def segmentString(string, fillchar):
     desiredwidth = 8
-    stringlist = []
-    leftstring = string[:8]
-    rightstring = string[8:]
-    while len(leftstring) < desiredwidth:
-        leftstring += fillchar
-    stringlist.append(leftstring)
-    if len(rightstring) > 1:
-        while len(rightstring) < desiredwidth:
-            rightstring += fillchar
-        stringlist.append(rightstring)
-    return stringlist
+    while len(string)%8 != 0:
+        string += fillchar
+    newlist = [
+        string[i:i+desiredwidth]
+        for i in range(0, len(string), desiredwidth)
+        ]
+    return newlist
 
 def printFrames(frames):
     frameN = 0
@@ -62,12 +58,15 @@ def appendParityToFrames(framelist, desiredparity):
 
 def transmitFrames(framelist, errorprob):
     newframelist = []
+    totalBitsFlipped = 0
     for frame in framelist:
         newframe = []
         for row in frame:
             (newRow, bitsFlipped) = addNoise(row, errorprob)
+            totalBitsFlipped += bitsFlipped
             newframe.append(newRow)
         newframelist.append(newframe)
+    print("Number of bits flipped: ", totalBitsFlipped)
     return newframelist
 
 def splitFrame(frame):
